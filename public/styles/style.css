@@ -1,11 +1,9 @@
 .outlines{
     background-color: #3d5aa9!important;
-    color: #DED6C9;
-}
-
-.waferbrown{
     color: #DED6C9!important;
 }
+
+
 
 .heading{
     color: black;
@@ -28,6 +26,7 @@
 
 body, html {
     height: 100%;
+    overflow-x: hidden;
   }
   
 #main-hero{
@@ -64,4 +63,8 @@ body, html {
 
 .carousel-item{
     text-align: center;
+}
+
+.tailend{
+    background-color: #254cb6;
 }
