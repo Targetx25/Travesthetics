@@ -1,0 +1,10 @@
+<%- include("./partials/headers.ejs")  %>
+<body>
+    <form method="get">
+        <input type="submit" value="Going with a date" formaction="/<%=placeId %>/date">
+        <input type="submit" value="Going with Family" formaction="/<%=placeId %>/family">
+        <input type="submit" value="Going with Friends" formaction="/<%=placeId %>/friends">
+        <input type="submit" value="Just YourSelf" formaction="/<%=placeId %>/alone">
+    </form>
+</body>
+<%- include("./partials/footer.ejs")  %>

@@ -1,0 +1,33 @@
+<%- include("./partials/headers.ejs")  %>
+<body>
+    <h1>Here Are Your Results</h1>
+    <div class="card">
+        <% if(locals.result) { %>
+                 <div class="image">
+                    <img src="<%= imagesUrl  %>"  alt="Random Images Based On categories">
+                    <p>Photo By <a href="<%= shotBy.portfolio_url %>" target="_blank"><%= shotBy.name  %></a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+                </div>
+                    <h2><%=result.address_line1 %></h2>
+                    <p><%=result.address_line2 %></p>
+                    <a href="https://www.google.com/search?q=<%=result.address_line1 %>+ <%=result.address_line2%>&tbm=isch" target="_blank">Look for Images of this Place</a>
+            <% }else{ %>
+                
+                    <h2>No More Places Found..</h2>
+                    <p>Please Star Us on Github.</p>
+                <% } %>
+    </div>
+    <div class="buttons ">
+    <% if(locals.count >= 0){ %>
+    <form method="post">
+        <% if (count > 0){ %>
+    <input formaction="/update/previous" type="submit" value="Previous">
+    <% } %>
+    <% if(count < listLength-1){ %>
+    <input formaction="/update/next" type="submit" value="Next">
+    <% } %>
+    </form>
+    <% } %>  
+    </div>
+</body>
+<%- include("./partials/footer.ejs")  %>
+</html>

@@ -1,0 +1,16 @@
+<%- include("./partials/headers.ejs")  %>
+<body>
+    <h1>Select Your City from Below</h1>
+    <form method="get">
+    <% if(locals.cityNames){ %>
+        <% for(let i =0; i < cityNames.length;i++){ %>
+            
+            <input value="<%=cityNames[i].properties.formatted  %>" formaction="/datu/<%=cityNames[i].properties.place_id %>" type="submit">
+            
+        <% } %>
+    </form>        
+    <% }else{ %>
+        <h2>No Cities matching your name were found</h2>
+    <% } %>            
+</body>
+<%- include("./partials/footer.ejs")  %>

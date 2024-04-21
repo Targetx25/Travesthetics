@@ -1,0 +1,67 @@
+.outlines{
+    background-color: #3d5aa9!important;
+    color: #DED6C9;
+}
+
+.waferbrown{
+    color: #DED6C9!important;
+}
+
+.heading{
+    color: black;
+}
+
+
+
+.cstmhero{
+    border: 4px solid #317312;
+}
+
+
+
+.customInput{
+    border-radius: 5px;
+    width:200px;
+    height: 40px;
+}
+
+
+body, html {
+    height: 100%;
+  }
+  
+#main-hero{
+   
+    background-image: url("../images/mountain.jpg");
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-heading{
+    color: whitesmoke !important;
+    font-family: sans-serif;
+}
+
+.input-page{
+    height: 50vh;
+}
+
+
+.form-control{
+    width:30%;
+    text-align: center;
+    
+}
+
+#city-form{
+   
+    text-align: center !important;
+}
+
+.carousel-item{
+    text-align: center;
+}
