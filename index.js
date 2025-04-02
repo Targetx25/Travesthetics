@@ -6,8 +6,8 @@ import morgan from "morgan";
 const app = express();
 const PORT = 3000
 const API_URL = "https://api.geoapify.com/";
-const apiKey = "976d3bf78c9f4ecb8532961be2444d0c";
-const unsplashKey = "itb9NBxGuOC5ijd9JzjEiBcDp_-pX_rLQkZq6RZBkMI"
+const apiKey = "YOUR_GEOAPIFY_KEY";
+const unsplashKey = "YOUR_UNSPLASH_KEY"
 
 
 //Using Middlewares
