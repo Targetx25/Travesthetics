@@ -4,6 +4,10 @@
 
 Travesthetics is a dynamic, location-based travel recommendation website that suggests the best places to visit based on your current city and the type of outing—be it a family trip, a romantic date, or a fun excursion with friends. The app integrates the GeoApify API to fetch local attractions and uses ExpressJS for the backend, along with EJS templating for the frontend.
 
+
+THIS PROJECT HAS BEEN UPGRADED WITH REACT AND OTHER FEATURES 
+https://github.com/Targetx25/Travesthetics-2.0
+
 ## Table of Contents
 
 - [Features](#features)
